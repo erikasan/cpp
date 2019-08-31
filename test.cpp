@@ -9,11 +9,17 @@
 using namespace std;
 
 
+int func(int, int);
+
 int main()
 {
-  const int n = 5;
-  double b[n] = {};
 
-  n = 2;
-  }
+  int a = 1, b = 2;
+  cout << func(a, b);
+  return 0;
+}
+
+int func(int a, int b)
+{
+  return a + b;
 }
