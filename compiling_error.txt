@@ -1,0 +1,4 @@
+/home/erik/Documents/cpp/test.cpp: In function ‘double g(double (*)())’:
+/home/erik/Documents/cpp/test.cpp:15:11: error: invalid operands of types ‘int’ and ‘double (*)()’ to binary ‘operator*’
+   return 2*f;
+          ~^~
